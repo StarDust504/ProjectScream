@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScreamPlayerController : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class ScreamPlayerController : MonoBehaviour
     [SerializeField] private float threshold = 0.1f;
     [SerializeField] private int minSpeed;
     [SerializeField] private int maxSpeed;
+    [SerializeField] private LayerMask layerMask;
 
     private Vector2 Velocity;
     // Start is called before the first frame update
@@ -33,12 +35,9 @@ public class ScreamPlayerController : MonoBehaviour
 
         if (Velocity.magnitude > 1)
             Velocity.Normalize();
-        //transform.localScale = Vector2.Lerp(minScale, maxScale, volume);
-        //прыгать, если звук выше определённого значения 
-        //добавить настройку громкости крика 
-    }
-    private void FixedUpdate()
-    {
+
+        AdjustSensitivity();
+
         float volume = volumeDetection.GetMicrophoneVolume() * volumeSensitivity;
 
         if (volume < threshold)
@@ -47,7 +46,26 @@ public class ScreamPlayerController : MonoBehaviour
         }
 
         Debug.Log(volume);
+
+        RaycastHit2D hit2d = Physics2D.Raycast(transform.position, Vector2.down, 0.6f, layerMask);
+
+        if (volume > 1 && hit2d.collider != null)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, maxSpeed);
+        }
+        //transform.localScale = Vector2.Lerp(minScale, maxScale, volume);
+        //прыгать, если звук выше определённого значения 
+        //добавить настройку громкости крика 
+    }
+    private void FixedUpdate()
+    {
+        
         //Mathf.Lerp(minSpeed, maxSpeed, volume)
         rb.velocity = new Vector2(Velocity.x * maxSpeed, rb.velocity.y);
+    }
+
+    public void AdjustSensitivity()
+    {
+        //volumeSensitivity = slider.value;
     }
 }
