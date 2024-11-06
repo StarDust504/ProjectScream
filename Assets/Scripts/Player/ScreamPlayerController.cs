@@ -12,6 +12,7 @@ public class ScreamPlayerController : MonoBehaviour
     [SerializeField] private float threshold = 0.1f;
     [SerializeField] private int minSpeed;
     [SerializeField] private int maxSpeed;
+    [SerializeField] private float movementSpeed;
     [SerializeField] private LayerMask layerMask;
 
     private Vector2 Velocity;
@@ -45,14 +46,16 @@ public class ScreamPlayerController : MonoBehaviour
             volume = 0;
         }
 
-        Debug.Log(volume);
+        Debug.Log(Mathf.Clamp(volume, 0, 1));
 
         RaycastHit2D hit2d = Physics2D.Raycast(transform.position, Vector2.down, 0.6f, layerMask);
 
-        if (volume > 1 && hit2d.collider != null)
+        if (volume > 0.02 && hit2d.collider != null)
         {
-            rb.velocity = new Vector2(rb.velocity.x, maxSpeed);
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Lerp(minSpeed, maxSpeed, Mathf.Clamp(volume, 0, 1)));
         }
+
+        
         //transform.localScale = Vector2.Lerp(minScale, maxScale, volume);
         //прыгать, если звук выше определённого значения 
         //добавить настройку громкости крика 
@@ -62,6 +65,8 @@ public class ScreamPlayerController : MonoBehaviour
         
         //Mathf.Lerp(minSpeed, maxSpeed, volume)
         rb.velocity = new Vector2(Velocity.x * maxSpeed, rb.velocity.y);
+
+        transform.position += new Vector3(movementSpeed * Time.deltaTime, 0, 0);
     }
 
     public void AdjustSensitivity()
