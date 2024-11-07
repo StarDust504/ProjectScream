@@ -14,8 +14,10 @@ public class ScreamPlayerController : MonoBehaviour
     [SerializeField] private int maxSpeed;
     [SerializeField] private float movementSpeed;
     [SerializeField] private LayerMask layerMask;
+    [SerializeField] private Animator animator;
 
     private Vector2 Velocity;
+    private bool isFacingRight;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,12 +27,6 @@ public class ScreamPlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-
-        //Debug.Log(volume);
-
-        
-
         Velocity.x = Input.GetAxis("Horizontal");
         Velocity.y = Input.GetAxis("Vertical");
 
@@ -46,27 +42,32 @@ public class ScreamPlayerController : MonoBehaviour
             volume = 0;
         }
 
-        Debug.Log(Mathf.Clamp(volume, 0, 1));
-
-        RaycastHit2D hit2d = Physics2D.Raycast(transform.position, Vector2.down, 0.6f, layerMask);
+        RaycastHit2D hit2d = Physics2D.Raycast(transform.position, Vector2.down, 0.8f, layerMask);
 
         if (volume > 0.02 && hit2d.collider != null)
         {
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Lerp(minSpeed, maxSpeed, Mathf.Clamp(volume, 0, 1)));
+            animator.SetTrigger("Jump");
         }
+        Debug.Log(hit2d.collider != null);
 
-        
-        //transform.localScale = Vector2.Lerp(minScale, maxScale, volume);
-        //прыгать, если звук выше определённого значения 
-        //добавить настройку громкости крика 
+        Flip();
     }
     private void FixedUpdate()
     {
-        
-        //Mathf.Lerp(minSpeed, maxSpeed, volume)
-        rb.velocity = new Vector2(Velocity.x * maxSpeed, rb.velocity.y);
 
-        transform.position += new Vector3(movementSpeed * Time.deltaTime, 0, 0);
+        rb.velocity = new Vector2(Velocity.x * movementSpeed, rb.velocity.y);
+    }
+
+    private void Flip()
+    {
+        if (!isFacingRight && Velocity.x < 0 || isFacingRight && Velocity.x > 0)
+        {
+            isFacingRight = !isFacingRight;
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
+        }
     }
 
     public void AdjustSensitivity()
