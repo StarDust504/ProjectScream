@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9218740570055263792}
   - component: {fileID: 4244380415225241730}
+  - component: {fileID: 8824859117076425660}
   m_Layer: 0
   m_Name: Spike_blood1
   m_TagString: Untagged
@@ -79,6 +80,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1.436322}
   m_EdgeRadius: 0
+--- !u!114 &8824859117076425660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8357101702133091991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aab028da11cd644e8c7e78162bc1a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScript: {fileID: 0}
+  damage: 0
 --- !u!1 &9120254035622424221
 GameObject:
   m_ObjectHideFlags: 0
