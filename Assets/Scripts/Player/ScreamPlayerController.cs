@@ -39,6 +39,7 @@ public class ScreamPlayerController : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        Application.targetFrameRate = 144;
         //Time.timeScale = 1;
     }
 
