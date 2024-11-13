@@ -1,0 +1,1447 @@
+fileFormatVersion: 2
+guid: e0c3f059cf8cf1740be62541ffe04566
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 929502943447740696
+    second: Tilesetv3 - Copy_0
+  - first:
+      213: 2382237639366646515
+    second: Tilesetv3 - Copy_1
+  - first:
+      213: 8657460233220374594
+    second: Tilesetv3 - Copy_2
+  - first:
+      213: 600138593472517474
+    second: Tilesetv3 - Copy_3
+  - first:
+      213: -4777586149772951507
+    second: Tilesetv3 - Copy_4
+  - first:
+      213: -8583561213614538371
+    second: Tilesetv3 - Copy_5
+  - first:
+      213: -6062832921960764364
+    second: Tilesetv3 - Copy_6
+  - first:
+      213: -2663652025944023352
+    second: Tilesetv3 - Copy_7
+  - first:
+      213: -632149480977858167
+    second: Tilesetv3 - Copy_8
+  - first:
+      213: -8221526211126512853
+    second: Tilesetv3 - Copy_9
+  - first:
+      213: 1786006845399381455
+    second: Tilesetv3 - Copy_10
+  - first:
+      213: -4966598382004358783
+    second: Tilesetv3 - Copy_11
+  - first:
+      213: -1068077350583197539
+    second: Tilesetv3 - Copy_12
+  - first:
+      213: 5499428683220756086
+    second: Tilesetv3 - Copy_13
+  - first:
+      213: -7734626154301642468
+    second: Tilesetv3 - Copy_14
+  - first:
+      213: 1824683688265865119
+    second: Tilesetv3 - Copy_15
+  - first:
+      213: 371249025808273848
+    second: Tilesetv3 - Copy_16
+  - first:
+      213: -4365015523842013187
+    second: Tilesetv3 - Copy_17
+  - first:
+      213: -5182818674979185373
+    second: Tilesetv3 - Copy_18
+  - first:
+      213: -1729959693445566089
+    second: Tilesetv3 - Copy_19
+  - first:
+      213: 8684235767245482224
+    second: Tilesetv3 - Copy_20
+  - first:
+      213: 8502056553408867066
+    second: Tilesetv3 - Copy_21
+  - first:
+      213: -5875597038972460165
+    second: Tilesetv3 - Copy_22
+  - first:
+      213: 91276183791003403
+    second: Tilesetv3 - Copy_23
+  - first:
+      213: 3872948916070526050
+    second: Tilesetv3 - Copy_24
+  - first:
+      213: 3628689949750742473
+    second: Tilesetv3 - Copy_25
+  - first:
+      213: -6808894112921191235
+    second: Tilesetv3 - Copy_26
+  - first:
+      213: -7646573461829247553
+    second: Tilesetv3 - Copy_27
+  - first:
+      213: -3371093072594571682
+    second: Tilesetv3 - Copy_28
+  - first:
+      213: -7356266193768808563
+    second: Tilesetv3 - Copy_29
+  - first:
+      213: 8437460593801288514
+    second: Tilesetv3 - Copy_30
+  - first:
+      213: 5892838558366956157
+    second: Tilesetv3 - Copy_31
+  - first:
+      213: -6624564862312799831
+    second: Tilesetv3 - Copy_32
+  - first:
+      213: 2272786010931881098
+    second: Tilesetv3 - Copy_33
+  - first:
+      213: -4740102823183323436
+    second: Tilesetv3 - Copy_34
+  - first:
+      213: -2966730025934907727
+    second: Tilesetv3 - Copy_35
+  - first:
+      213: -2823169817175966970
+    second: Tilesetv3 - Copy_36
+  - first:
+      213: -3631600699918758747
+    second: Tilesetv3 - Copy_37
+  - first:
+      213: -7070550292511646854
+    second: Tilesetv3 - Copy_38
+  - first:
+      213: -8010586425204670881
+    second: Tilesetv3 - Copy_39
+  - first:
+      213: -8981751092452267303
+    second: Tilesetv3 - Copy_40
+  - first:
+      213: -7508857215220176209
+    second: Tilesetv3 - Copy_41
+  - first:
+      213: 2814751856634882869
+    second: Tilesetv3 - Copy_42
+  - first:
+      213: 5510732199488800285
+    second: Tilesetv3 - Copy_43
+  - first:
+      213: -1374233473690454990
+    second: Tilesetv3 - Copy_44
+  - first:
+      213: 3196179626494041318
+    second: Tilesetv3 - Copy_45
+  - first:
+      213: -8224345359294668650
+    second: Tilesetv3 - Copy_46
+  - first:
+      213: 5201022287866620547
+    second: Tilesetv3 - Copy_47
+  - first:
+      213: 5677531183938896104
+    second: Tilesetv3 - Copy_48
+  - first:
+      213: 1133986634679159851
+    second: Tilesetv3 - Copy_49
+  - first:
+      213: 6774467045267240596
+    second: Tilesetv3 - Copy_50
+  - first:
+      213: -1710042709666674329
+    second: Tilesetv3 - Copy_51
+  - first:
+      213: -426870662803855346
+    second: Tilesetv3 - Copy_52
+  - first:
+      213: 1707960720560102400
+    second: Tilesetv3 - Copy_53
+  - first:
+      213: 4485627827877277772
+    second: Tilesetv3 - Copy_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 272
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811f1e9900246ec00800000000000000
+      internalID: 929502943447740696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 383
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa9309e2886f0120800000000000000
+      internalID: 2382237639366646515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 383
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240cb22863a752870800000000000000
+      internalID: 8657460233220374594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 178
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2659eeffede145800800000000000000
+      internalID: 600138593472517474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 335
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2005f2a5ba92bdb0800000000000000
+      internalID: -4777586149772951507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 335
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d714faacd8011e880800000000000000
+      internalID: -8583561213614538371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 33
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c2cf9649d7cdba0800000000000000
+      internalID: -6062832921960764364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 287
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce5b54589ec80bd0800000000000000
+      internalID: -2663652025944023352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 287
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9810e5575672a37f0800000000000000
+      internalID: -632149480977858167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 258
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23bd32787547ed80800000000000000
+      internalID: -8221526211126512853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 255
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5327263cb29c810800000000000000
+      internalID: 1786006845399381455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 271
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181b992f519131bb0800000000000000
+      internalID: -4966598382004358783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 207
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9029ddfe4d6d21f0800000000000000
+      internalID: -1068077350583197539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 255
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676a7fa0045e15c40800000000000000
+      internalID: 5499428683220756086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 207
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19a7621e7619a490800000000000000
+      internalID: -7734626154301642468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 239
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97598a9524925910800000000000000
+      internalID: 1824683688265865119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 239
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b11382a501f62500800000000000000
+      internalID: 371249025808273848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 207
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7c45602895c63c0800000000000000
+      internalID: -4365015523842013187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 207
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32dda96ffdde218b0800000000000000
+      internalID: -5182818674979185373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 175
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771fe6413d2fdf7e0800000000000000
+      internalID: -1729959693445566089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 207
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8a8645b6a948870800000000000000
+      internalID: 8684235767245482224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 192
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afaa736b36f5df570800000000000000
+      internalID: 8502056553408867066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 207
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73a5b09f9fa57ea0800000000000000
+      internalID: -5875597038972460165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 191
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07e05f9437444100800000000000000
+      internalID: 91276183791003403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 194
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c2e97f48a7fb530800000000000000
+      internalID: 3872948916070526050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 194
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd4cee9842bb5230800000000000000
+      internalID: 3628689949750742473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_26
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 159
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc751e11e2f181a0800000000000000
+      internalID: -6808894112921191235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_27
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 159
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd1db223f9e1e590800000000000000
+      internalID: -7646573461829247553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e683716b87731d0800000000000000
+      internalID: -3371093072594571682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 176
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ff1373fda49e990800000000000000
+      internalID: -7356266193768808563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 175
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bd1ebd4b1e71570800000000000000
+      internalID: 8437460593801288514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_31
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 178
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7aff2e727197c150800000000000000
+      internalID: 5892838558366956157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_32
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 178
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1af4e2b51d014a0800000000000000
+      internalID: -6624564862312799831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_33
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 143
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a846210d5de8a8f10800000000000000
+      internalID: 2272786010931881098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_34
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 148
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dee451b895c73eb0800000000000000
+      internalID: -4740102823183323436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_35
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 111
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b61aa382ce04d6d0800000000000000
+      internalID: -2966730025934907727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_36
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b3f92520612d8d0800000000000000
+      internalID: -2823169817175966970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_37
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 162
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac484b8766f99dc0800000000000000
+      internalID: -3631600699918758747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_38
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b1f4868fb50ed90800000000000000
+      internalID: -7070550292511646854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_39
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 148
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5efb13961ea4d090800000000000000
+      internalID: -8010586425204670881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dae76108f86a5380800000000000000
+      internalID: -8981751092452267303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 114
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa2ca9752e2bc790800000000000000
+      internalID: -7508857215220176209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 111
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53be79186e1001720800000000000000
+      internalID: 2814751856634882869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_43
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 100
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1646d20dbd0a7c40800000000000000
+      internalID: 5510732199488800285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_44
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 79
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234ba3acfedbdece0800000000000000
+      internalID: -1374233473690454990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_45
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 79
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec948baf6c1b5c20800000000000000
+      internalID: 3196179626494041318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_46
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 79
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690eb1d58714ddd80800000000000000
+      internalID: -8224345359294668650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_47
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 47
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38aed21f63ebd2840800000000000000
+      internalID: 5201022287866620547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_48
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 47
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e081ebe784aace40800000000000000
+      internalID: 5677531183938896104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_49
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c871c06dabcbf00800000000000000
+      internalID: 1133986634679159851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 31
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4967ebf82edb30e50800000000000000
+      internalID: 6774467045267240596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 31
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769429b3735b448e0800000000000000
+      internalID: -1710042709666674329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_52
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 15
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e086a82d463731af0800000000000000
+      internalID: -426870662803855346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_53
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 17
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c1e47e935e3b710800000000000000
+      internalID: 1707960720560102400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesetv3 - Copy_54
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 17
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c407b3b5eb6204e30800000000000000
+      internalID: 4485627827877277772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
