@@ -26,7 +26,15 @@ public class EnemyDamage : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            playerScript.TakeDamage(damage);
+            playerScript.StartDamage();
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            playerScript.StopDamage();
         }
     }
 }

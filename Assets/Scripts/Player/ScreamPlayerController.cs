@@ -24,6 +24,8 @@ public class ScreamPlayerController : MonoBehaviour
 
     [Header("Stats")]
     [SerializeField] private int maxHealth;
+    [SerializeField] private float damageDuration;
+    [SerializeField] private Image[] hpArray;
 
     [Header("Debug")]
     [SerializeField] private float debugVolume;
@@ -35,52 +37,64 @@ public class ScreamPlayerController : MonoBehaviour
     public int currentHealth;
     private bool hitWall = true;
     Vector3 tempTransform;
+    private bool allowMovement = true;
+
+    private Vector2 lastCheckpointLocation;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
         Application.targetFrameRate = 144;
+        lastCheckpointLocation = transform.position;
         //Time.timeScale = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Velocity.x = Input.GetAxis("Horizontal");
-        Velocity.y = Input.GetAxis("Vertical");
-
-        if (Velocity.magnitude > 1)
-            Velocity.Normalize();
-
-        AdjustSensitivity();
-
-        float volume = volumeDetection.GetMicrophoneVolume() * volumeSensitivity;
-
-        if (volume < threshold)
+        if (allowMovement)
         {
-            volume = 0;
+            Velocity.x = Input.GetAxis("Horizontal");
+            Velocity.y = Input.GetAxis("Vertical");
+
+            if (Velocity.magnitude > 1)
+                Velocity.Normalize();
+
+            AdjustSensitivity();
+
+            float volume = volumeDetection.GetMicrophoneVolume() * volumeSensitivity;
+
+            if (volume < threshold)
+            {
+                volume = 0;
+            }
+
+            RaycastHit2D hit2d = Physics2D.Raycast(transform.position, Vector2.down, 0.8f, layerMask);
+
+            if (volume > 0.5 && hit2d.collider && !debugEnabled)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, Mathf.Lerp(minSpeed, maxSpeed, Mathf.Clamp(volume, 0, 1) /*debugVolume*/));
+                animator.SetTrigger("Jump");
+
+                Debug.Log(Mathf.Clamp(volume, 0, 1));
+                //Invoke("ResetJump", 10f);
+            }
+            else if (Input.GetButtonDown("Jump") && hit2d.collider && debugEnabled)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, Mathf.Lerp(minSpeed, maxSpeed, debugVolume));
+                animator.SetTrigger("Jump");
+            }
+
+            //Debug.Log(hit2d.collider != null);
+
+            Flip();
+            OffsetCamera();
         }
-
-        RaycastHit2D hit2d = Physics2D.Raycast(transform.position, Vector2.down, 0.8f, layerMask);
-
-        if (volume > 0.5 && hit2d.collider && !debugEnabled)
+        else
         {
-            rb.velocity = new Vector2(rb.velocity.x, Mathf.Lerp(minSpeed, maxSpeed, Mathf.Clamp(volume, 0, 1) /*debugVolume*/));
-            animator.SetTrigger("Jump");
-
-            Debug.Log(Mathf.Clamp(volume, 0, 1));
-            //Invoke("ResetJump", 10f);
-        }
-        else if (Input.GetButtonDown("Jump") && hit2d.collider && debugEnabled)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, Mathf.Lerp(minSpeed, maxSpeed, debugVolume));
-            animator.SetTrigger("Jump");
+            rb.velocity = new Vector2(0, 0);
         }
         
-        //Debug.Log(hit2d.collider != null);
-
-        Flip();
-        OffsetCamera();
     }
 
     private void ResetJump()
@@ -89,16 +103,24 @@ public class ScreamPlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(Velocity.x * movementSpeed, rb.velocity.y);
-
-        if (Input.GetButton("Horizontal"))
+        if (allowMovement)
         {
-            animator.SetBool("bIsWalking", true);
+            rb.velocity = new Vector2(Velocity.x * movementSpeed, rb.velocity.y);
+
+            if (Input.GetButton("Horizontal"))
+            {
+                animator.SetBool("bIsWalking", true);
+            }
+            else
+            {
+                animator.SetBool("bIsWalking", false);
+            }
         }
         else
         {
-            animator.SetBool("bIsWalking", false);
+            rb.velocity = new Vector2(0, 0);
         }
+        
     }
 
     private void Flip()
@@ -117,21 +139,51 @@ public class ScreamPlayerController : MonoBehaviour
         //volumeSensitivity = slider.value;
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage()
     {
-        currentHealth -= amount;
+        currentHealth -= 1;
+
+        Color tempCol = hpArray[currentHealth].color;
+        tempCol.a = 0;
+        hpArray[currentHealth].color = tempCol;
 
         if (currentHealth <= 0)
         {
-            
+            allowMovement = false;
             animator.SetTrigger("Die");
-            Invoke("Kill", 1);
+
+            Kill();
         }
+        Debug.Log(currentHealth);
     }
 
-    private void Kill()
+    public void SetLastCheckpointLocation(Vector2 location)
     {
-        Destroy(gameObject);
+        lastCheckpointLocation = location;
+    }
+    public void Kill()
+    {
+        foreach (Image tempImg in hpArray)
+        {
+            Color tempColor = tempImg.color;
+            tempColor.a = 1;
+            tempImg.color = tempColor;
+        }
+        animator.SetTrigger("Idle");
+        allowMovement = true;
+        transform.position = lastCheckpointLocation;
+        currentHealth = maxHealth;
+        //Destroy(gameObject);
+    }
+
+    public void StartDamage()
+    {
+        InvokeRepeating("TakeDamage", 0, damageDuration);
+    }
+
+    public void StopDamage()
+    {
+        CancelInvoke("TakeDamage");
     }
 
     private void OffsetCamera()
